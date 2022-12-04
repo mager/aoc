@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const data = fs.readFileSync(path.resolve(__dirname, '../input/1.txt'), 'utf-8');
+const data = fs.readFileSync(path.resolve(__dirname, 'input.txt'), 'utf-8');
 
 // Convert the individual lines of each group to Numbers and tally.
 const elves = data

@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const data = fs.readFileSync(path.resolve(__dirname, '../input/2.txt'), 'utf-8');
+const data = fs.readFileSync(path.resolve(__dirname, 'input.txt'), 'utf-8');
 
 const games = data.split('\n');
 
