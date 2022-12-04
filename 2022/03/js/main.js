@@ -13,7 +13,7 @@ const alphabetMap = alphabet
         return map;
     }, {});
 
-const data = fs.readFileSync(path.resolve(__dirname, 'input.txt'), 'utf-8');
+const data = fs.readFileSync(path.resolve(__dirname, '../input.txt'), 'utf-8');
 
 let total = 0;
 
