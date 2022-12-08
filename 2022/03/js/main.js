@@ -17,7 +17,7 @@ const data = fs.readFileSync(path.resolve(__dirname, '../input.txt'), 'utf-8');
 
 let total = 0;
 
-const rucksacks = data
+data
     .split('\n')
     .map(rucksack => {
         // Split the word into two substrings
@@ -43,7 +43,7 @@ let groupedTotal = 0;
 
 // For each group of 3 rucksacks, find the common letter between them
 // and sum the value
-const groupedRucksacks = data
+data
     .split('\n')
     .map(rucksack => rucksack.split(''))
     .reduce((groups, rucksack, index) => {
