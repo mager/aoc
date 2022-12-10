@@ -22,7 +22,6 @@ const part1 = input_stacks
     .filter((row) => row !== "")
     .map((row) => [...row.slice(0, -1)].reverse());
 
-
 // Parse out the procedure instrtuctions into an array of [move, from, to]
 const proceedure = input_proceedure.map((line) =>
     Array.from(line.matchAll(/\d+/g), (d) => Number.parseInt(d, 10))
