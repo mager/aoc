@@ -4,8 +4,6 @@ const fs = require('fs');
 const data = fs.readFileSync(path.resolve(__dirname, './input.txt'), 'utf-8');
 
 const inputs = data.split("\n");
-
-// For each input, find the first and last digit in the string
 const numbers = [];
 
 for (let i = 0; i < inputs.length; i++) {
