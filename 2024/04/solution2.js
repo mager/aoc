@@ -1,3 +1,5 @@
+// Credit to derfritz
+
 const path = require('path');
 
 function day4() {
