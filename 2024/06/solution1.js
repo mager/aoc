@@ -76,3 +76,5 @@ while (true) {
 // The number of distinct cells visited
 console.log(part1.size);
 
+const part2 = new Set();
+
