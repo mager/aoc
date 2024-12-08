@@ -16,3 +16,7 @@ Attempting with Javascript & Python.
   - `node 1/1.js`
   - `python 1/2.py` - With help from @jonathanpaulson's [video](https://www.youtube.com/watch?v=rnidYOt9m2o)
   - `node 1/2.js`
+
+## 2024
+
+Solving with Javascript.
